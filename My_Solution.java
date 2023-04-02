@@ -19,7 +19,7 @@ public class main_misc2 {
 	/*
 	 * I want to find the first element from right to left and swap when i found a c[i] > c[i-1]
 	 * after that i guarantee that the array from i to v.lenght-1 is sorted from max to min
-	 * so i just have to invert this part of the array.then i have to concatenate both
+	 * so i just have to invert this part of the array then i have to concatenate both
 	 */
 	private static String reverse(String s) {
 		//
