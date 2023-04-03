@@ -18,7 +18,7 @@ public class main_misc2 {
 	}
 	/*
 	 * I want to find the first element from right to left and save the index as j when i found a c[i] > c[i-1]
-	 * the i search from j to v.length the smallest element that is bigger than c[j-1](if j == 0 -->null)
+	 * then i search from j to v.length for the smallest element that is bigger than c[j-1](if j == 0 -->null)
 	 * after that i guarantee that the array from i to v.lenght-1 is sorted from max to min
 	 * so i just have to invert this part of the array then i have to concatenate both
 	 */
